@@ -56,7 +56,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 ./scripts/train_wasp.sh
 
 
 ## Evaluation
-You can also directly use our trained models to do the evaluation. Please first download our saved model from [our google drive](https://drive.google.com/drive/folders/13wakyxZFfWWZ2DddAuMBTQoi9mydc157?usp=sharing) and put it in the "pretrained" directory accordingly.
 
 ```bash
 # evaluate with baseline Deeplabv3+
